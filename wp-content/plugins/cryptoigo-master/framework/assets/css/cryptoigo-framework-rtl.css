@@ -1,0 +1,232 @@
+/**
+ *
+ * -----------------------------------------------------------
+ *
+ * Codestar Framework
+ * A Lightweight and easy-to-use WordPress Options Framework
+ *
+ * Copyright 2015 Codestar <info@codestarlive.com>
+ *
+ * -----------------------------------------------------------
+ *
+ */
+.cryptoigo-framework {
+  margin-left: 20px;
+  margin-right: 0;
+}
+.cryptoigo-framework .cryptoigo-header h1 {
+  float: right;
+}
+.cryptoigo-framework .cryptoigo-header fieldset {
+  float: left;
+}
+.cryptoigo-framework .cryptoigo-nav {
+  float: right;
+}
+.cryptoigo-framework .cryptoigo-nav ul {
+  clear: right;
+}
+.cryptoigo-framework .cryptoigo-nav ul li .cryptoigo-section-active:after {
+  right: auto;
+  left: 0;
+  border-left-color: #fff;
+  border-right-color: transparent;
+}
+.cryptoigo-framework .cryptoigo-nav ul li .cryptoigo-arrow:after {
+  content: "\f053";
+  right: auto;
+  left: 10px;
+}
+.cryptoigo-framework .cryptoigo-nav ul li.cryptoigo-tab-active .cryptoigo-arrow:after {
+  -moz-transform: rotate(-90deg);
+  -ms-transform: rotate(-90deg);
+  -webkit-transform: rotate(-90deg);
+  transform: rotate(-90deg);
+}
+.cryptoigo-framework .cryptoigo-nav ul ul li a {
+  padding-right: 25px;
+  padding-left: 15px;
+}
+.cryptoigo-framework .cryptoigo-nav ul ul:before {
+  left: auto;
+  right: 15px;
+}
+.cryptoigo-framework .cryptoigo-nav .cryptoigo-icon {
+  margin-left: 5px;
+  margin-right: 0;
+}
+.cryptoigo-framework .cryptoigo-nav-background {
+  left: auto;
+  right: 0;
+}
+.cryptoigo-framework .cryptoigo-content {
+  margin-left: 0;
+  margin-right: 225px;
+}
+.cryptoigo-framework .cryptoigo-content .cryptoigo-sections {
+  float: right;
+}
+.cryptoigo-framework .cryptoigo-show-all .cryptoigo-content {
+  margin-right: 0;
+  overflow: hidden;
+}
+.cryptoigo-framework .cryptoigo-expand-all {
+  right: auto;
+  left: 40px;
+}
+.cryptoigo-framework .cryptoigo-footer {
+  text-align: left;
+}
+
+.cryptoigo-metabox-framework {
+  margin: -6px -12px -12px -12px;
+}
+.cryptoigo-metabox-framework .cryptoigo-content .cryptoigo-section-title {
+  padding: 20px;
+}
+
+.cryptoigo-element .cryptoigo-title {
+  float: right;
+}
+.cryptoigo-element .cryptoigo-fieldset {
+  margin-left: 0;
+  margin-right: 30%;
+}
+
+.cryptoigo-pseudo-field {
+  padding: 0 0 0 5px !important;
+}
+
+.cryptoigo-field-number em {
+  margin-left: 0;
+  margin-right: 5px;
+}
+
+.cryptoigo-field-typography select,
+.cryptoigo-field-typography .chosen-container {
+  margin-right: 0;
+  margin-left: 5px;
+}
+
+.cryptoigo-field-checkbox .horizontal li,
+.cryptoigo-field-radio .horizontal li {
+  margin-right: 0;
+  margin-left: 15px;
+}
+
+.cryptoigo-field-switcher label {
+  float: right;
+}
+.cryptoigo-field-switcher .cryptoigo-text-desc {
+  float: right;
+  margin-left: 0;
+  margin-right: 5px;
+}
+
+.cryptoigo-field-color_picker .cryptoigo-alpha-slider {
+  margin-left: 0;
+  margin-right: 2px;
+}
+.cryptoigo-field-color_picker .cryptoigo-alpha-slider .ui-slider-handle {
+  margin: 0 -11px;
+}
+.cryptoigo-field-color_picker .cryptoigo-alpha-slider-offset {
+  background-position: center right;
+}
+.cryptoigo-field-color_picker .cryptoigo-alpha-text {
+  right: auto;
+  left: 10px;
+}
+
+.cryptoigo-field-group .ui-accordion-icons {
+  padding-left: 0;
+  padding-right: 30px;
+}
+.cryptoigo-field-group .ui-accordion-header-icon {
+  left: auto;
+  right: .5em;
+}
+.cryptoigo-field-group .dashicons-arrow-right:before {
+  content: "\f141";
+}
+
+.cryptoigo-help {
+  right: auto;
+  left: 5px;
+}
+
+.cryptoigo-field-icon .button {
+  margin-right: 0;
+  margin-left: 5px;
+}
+.cryptoigo-field-icon .cryptoigo-icon-preview i {
+  margin-right: 0;
+  margin-left: 5px;
+}
+
+.cryptoigo-field-gallery ul li {
+  margin-right: 0;
+  margin-left: 5px;
+}
+.cryptoigo-field-gallery .button {
+  margin-right: 0;
+  margin-left: 5px;
+}
+
+.cryptoigo-field-sorter .cryptoigo-modules {
+  float: right;
+  margin-right: 0;
+  margin-left: 10px;
+}
+
+.cryptoigo-taxonomy-add-fields .cryptoigo-fieldset {
+  margin-right: 0;
+}
+.cryptoigo-taxonomy-add-fields .cryptoigo-help {
+  left: -5px;
+  right: auto;
+}
+
+.cryptoigo-taxonomy-edit-fields .cryptoigo-fieldset {
+  margin-left: 0;
+  margin-right: 225px;
+}
+.cryptoigo-taxonomy-edit-fields .cryptoigo-help {
+  right: auto;
+  left: -5px;
+}
+
+#cryptoigo-save-ajax {
+  right: auto;
+  left: 5px;
+}
+
+.cryptoigo-dialog .cryptoigo-element {
+  padding-right: 15px;
+  padding-left: 30px;
+}
+.cryptoigo-dialog .cryptoigo-shortcode-clone .cryptoigo-remove-clone {
+  right: auto;
+  left: 5px;
+}
+
+#customize-controls .cryptoigo-element .cryptoigo-fieldset,
+.widget-content .cryptoigo-element .cryptoigo-fieldset,
+#side-sortables .cryptoigo-element .cryptoigo-fieldset {
+  margin-right: 0;
+}
+
+@media only screen and (max-width: 1200px) {
+  .cryptoigo-metabox-framework .cryptoigo-element .cryptoigo-fieldset {
+    margin-left: 0;
+  }
+}
+@media only screen and (max-width: 782px) {
+  .cryptoigo-framework .cryptoigo-fieldset,
+  .cryptoigo-framework .cryptoigo-content {
+    margin-right: 0;
+  }
+}
+.ui-dialog {
+  right: auto;
+}

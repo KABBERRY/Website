@@ -1,0 +1,79 @@
+ul.kc-components-categories li.cryptoigo {
+    color: #fff;
+    background-color: #9e9666;
+}
+#wp-link-wrap {
+    z-index: 9999999;
+}
+.panel-elements-category-title.panel-elements-category-title-cryptoigo-elements {
+    color: #fff;
+    background-color: #c5c0a6;
+    font-size: 16px;
+    font-weight: 700;
+}
+#elementor-panel-category-cryptoigo-elements .elementor-element {
+    border: 5px solid #c5c0a6;
+}
+.elementor-choices .elementor-choices-label {
+	position: relative;
+}
+i.fullcolumn,
+i.column4,
+i.column3 {
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+i.column3 { 
+	background-image: url(../imgs/columns-3.png);
+}
+i.column4 { 
+	background-image: url(../imgs/columns-4.png);
+}
+i.fullcolumn { 
+	background-image: url(../imgs/full-column.png);
+}
+.elementor-editor-active .elementor.elementor-edit-mode .elementor-editor-element-settings {
+    z-index: 99999 !important;
+}
+.elementor-editor-active .elementor.elementor-edit-mode .elementor-inner {
+	margin-top: 100px;
+}
+#elementor {
+    position: relative;
+    z-index: 99999;
+}
+#elementor-panel-category-cryptoigo-elements .elementor-panel-category-title {
+    margin: 0;
+    color: #fff;
+    font-size: 16px;
+    padding: 15px 15px;
+}
+#elementor-panel-category-cryptoigo-elements .elementor-panel-category-title:before {
+    right: 15px;
+}
+.elementor-control.elementor-control-type-divider hr.elementor-divider-style--thick,
+#elementor-panel-category-cryptoigo-elements .elementor-panel-category-title {
+    border-color: #e6e9ec;
+    -webkit-transition: 0.5s;
+    -o-transition: 0.5s;
+    -moz-transition: 0.5s;
+    transition: 0.5s;
+    background-image: -webkit-linear-gradient(50deg, #FF4137 20%, #FDC800 51%, #FF4137 90%);
+    background-image: -moz-linear-gradient(50deg, #FF4137 20%, #FDC800 51%, #FF4137 90%);
+    background-image: -o-linear-gradient(50deg, #FF4137 20%, #FDC800 51%, #FF4137 90%);
+    background-image: linear-gradient(40deg, #FF4137 20%, #FDC800 51%, #FF4137 90%);
+    background-position: left center;
+    -webkit-background-size: 200% auto;
+    background-size: 200% auto;
+}
+.elementor-control.elementor-control-type-divider hr.elementor-divider-style--thick {
+    border-top-width: 0;
+    height: 10px;
+    width: 100%;
+}

@@ -1,0 +1,162 @@
+/**
+*
+* -----------------------------------------------------------
+*
+* Codestar Framework Light Theme
+* A Lightweight and easy-to-use WordPress Options Framework
+*
+* Copyright 2015 Codestar <info@codestarlive.com>
+*
+* -----------------------------------------------------------
+*
+*/
+/**
+ *
+ * Option
+ *
+ */
+.cryptoigo-option-framework {
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.04);
+  border: 1px solid #e5e5e5;
+}
+
+.cryptoigo-framework .cryptoigo-header {
+  background-color: #f9f9f9;
+  border-bottom: 1px solid #eee;
+}
+
+.cryptoigo-framework .cryptoigo-footer {
+  border-top: 1px solid #eee;
+  background-color: #f9f9f9;
+}
+
+.cryptoigo-framework .cryptoigo-header h1 {
+  color: #333;
+}
+
+/**
+* Nav container
+*/
+.cryptoigo-framework .cryptoigo-nav-background {
+  background-color: #f9f9f9;
+  border-right: 1px solid #eee;
+}
+
+.cryptoigo-framework .cryptoigo-nav ul li a {
+  border-bottom-color: #eee;
+  background-color: transparent;
+  color: #555;
+}
+
+.cryptoigo-framework .cryptoigo-nav ul li a:hover {
+  color: #333;
+}
+
+.cryptoigo-framework .cryptoigo-nav ul ul {
+  border-bottom-color: #eee;
+}
+
+.cryptoigo-framework .cryptoigo-nav ul ul::before {
+  background-color: #eee;
+}
+
+.cryptoigo-framework .cryptoigo-nav ul ul li a {
+  padding: 12px 12px 12px 24px;
+  background-color: transparent;
+  border-bottom-color: #eee;
+}
+
+.cryptoigo-framework .cryptoigo-nav ul li .cryptoigo-section-active,
+.cryptoigo-framework .cryptoigo-nav ul ul li .cryptoigo-section-active {
+  background-color: #fff;
+  color: #333;
+}
+
+/**
+* Element container
+*/
+.cryptoigo-framework .cryptoigo-body:before,
+.cryptoigo-framework .cryptoigo-body:after {
+  display: table;
+  content: "";
+}
+
+.cryptoigo-framework .cryptoigo-body:after {
+  clear: both;
+}
+
+.cryptoigo-framework .cryptoigo-content .cryptoigo-section-title {
+  background-color: #00a0d2;
+}
+
+.cryptoigo-element .cryptoigo-title {
+  width: 35%;
+}
+
+.cryptoigo-field-heading,
+.cryptoigo-field-subheading,
+.cryptoigo-element .cryptoigo-title h4 {
+  color: #333;
+  font-weight: 400;
+}
+
+.cryptoigo-element .cryptoigo-fieldset {
+  margin-left: 38%;
+}
+
+.cryptoigo-field-switcher .cryptoigo-text-desc {
+  margin: 0;
+  clear: both;
+}
+
+.cryptoigo-field-switcher label em {
+  background-color: #c5c5c5;
+}
+
+.cryptoigo-field-switcher label input:checked ~ em {
+  background-color: #00a0d2;
+}
+
+.cryptoigo-element input[type="text"],
+.cryptoigo-element input[type="number"],
+.cryptoigo-element select,
+.cryptoigo-element textarea {
+  width: 100%;
+  padding: 6px 8px;
+}
+
+.cryptoigo-element input[type="text"],
+.cryptoigo-element input[type="number"],
+.cryptoigo-element select {
+  height: 34px;
+}
+
+.cryptoigo-fieldset .wp-editor-wrap {
+  float: left;
+  width: 100%;
+}
+
+.cryptoigo-fieldset .wp-editor-tools {
+  padding-top: 0 !important;
+  background-color: transparent !important;
+}
+
+.cryptoigo-field-upload {
+  position: relative;
+}
+
+.cryptoigo-field-upload input[type="text"] {
+  padding-right: 75px;
+}
+
+.cryptoigo-field-upload .button {
+  position: absolute;
+  top: 34px;
+  right: 32px;
+}
+
+/* Seperator */
+.cryptoigo-framework .cryptoigo-nav .cryptoigo-seperator {
+  color: #888;
+  border-bottom-color: #dadada;
+}
