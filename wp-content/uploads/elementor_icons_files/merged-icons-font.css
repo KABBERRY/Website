@@ -1,0 +1,22 @@
+i.eci{ 
+display: inline-block;
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: inherit;
+    text-rendering: auto;
+            -webkit-font-smoothing: antialiased;
+            -moz-osx-font-smoothing: grayscale;
+     }
+@font-face {
+ font-family: 'font645777827';
+  src: url('fontello-ad852dae.zip/fontello-ad852dae/font/fontello.eot?845169165');
+  src: url('fontello-ad852dae.zip/fontello-ad852dae/font/fontello.eot?845169165#iefix') format('embedded-opentype'),
+       url('fontello-ad852dae.zip/fontello-ad852dae/font/fontello.woff2?845169165') format('woff2'),
+       url('fontello-ad852dae.zip/fontello-ad852dae/font/fontello.woff?845169165') format('woff'),
+       url('fontello-ad852dae.zip/fontello-ad852dae/font/fontello.ttf?845169165') format('truetype'),
+       url('fontello-ad852dae.zip/fontello-ad852dae/font/fontello.svg?845169165#fontello') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+.eci.font645777827-discord-log0::before { content: '\e800'; font-family: 'font645777827'; }
+
+
