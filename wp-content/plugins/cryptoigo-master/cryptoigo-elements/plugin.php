@@ -138,7 +138,7 @@ class Plugin {
 		\Elementor\Plugin::instance()->widgets_manager->register_widget_type( new Section_Token_Counter() );
 		\Elementor\Plugin::instance()->widgets_manager->register_widget_type( new Section_3d_Animation() );
 		\Elementor\Plugin::instance()->widgets_manager->register_widget_type( new Section_Mobile_app() );
-
+		
 	}
 }
 
