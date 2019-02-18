@@ -84,7 +84,7 @@ if( function_exists( 'cryptoigo_framework_init' ) ) {
                     $attachment = wp_get_attachment_image_src( $site_logo_id, 'thumbnail' );
                     $site_logo = ($attachment) ? $attachment[0] : $site_logo_id;
                     $logo_txt = cryptoigo_get_option('cryptoigo_logo_txt');
-                    echo'<a class="navbar-brand animated" data-animation="fadeInDown" data-animation-delay="1s" href="'.esc_url(home_url('/')).'"><img src="'.esc_url( $site_logo ).'" alt="'.esc_attr( $logo_txt ).'"><span class="brand-text"><span class="font-weight-bold">'.esc_html( $logo_txt ).'</span></span></a>';
+                    echo'<a class="navbar-brand animated" data-animation="fadeInDown" data-animation-delay="1s" href="'.esc_url(home_url('/')).'"><img src="'.esc_url( $site_logo ).'" alt="'.esc_attr( $logo_txt ).'"></a>';
                 } else {
                     echo '<h1><a class="navbar-brand animated" data-animation="fadeInDown" data-animation-delay="1s" href="'.esc_url(home_url('/')).'"> <span class="brand-text"><span class="font-weight-bold">'. get_bloginfo( 'name' ) .'</span></span></a></h1>';
                 }
