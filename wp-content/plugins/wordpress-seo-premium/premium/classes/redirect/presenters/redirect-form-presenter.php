@@ -37,7 +37,9 @@ class WPSEO_Redirect_Form_Presenter implements WPSEO_Redirect_Presenter {
 	 */
 	public function display( array $display = array() ) {
 
+		// @codingStandardsIgnoreStart
 		extract( array_merge_recursive( $this->view_vars, $display ) );
+		// @codingStandardsIgnoreEnd
 
 		require WPSEO_PREMIUM_PATH . 'classes/redirect/views/redirects-form.php';
 	}

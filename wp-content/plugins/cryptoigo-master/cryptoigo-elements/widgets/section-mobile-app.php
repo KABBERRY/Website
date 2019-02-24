@@ -331,9 +331,7 @@ class Section_Mobile_app extends Widget_Base {
                 ?>
 					<?php if ( !empty($app_btn1_txt) ) { ?>
 	                <a href="<?php echo $app_btn1_link; ?>" class="android mobile-button btn btn-gradient-purple btn-glow mr-4"><span><?php echo $app_btn1_txt; ?></span> <img src="<?php echo $app_btn1_img; ?>" alt=""></a>
-	                <?php } if ( !empty ($app_btn2_txt) ) { ?>
-	                <a href="<?php echo $app_btn2_link; ?>" class="apple mobile-button btn btn-gradient-purple btn-glow"><span><?php echo $app_btn2_txt; ?></span> <img src="<?php echo $app_btn2_img; ?>" alt=""></a>
-					<?php } ?>
+	                <?php } ?>
 
             </div>
             <div class="col-lg-6 col-md-12 move-first">
