@@ -1,0 +1,46 @@
+
+---Upload files---
+Customizer file was not uploaded. Error: Podany plik nie przeszedł próby wysyłki.
+
+---Upload files---
+Redux file was not uploaded. Error: Podany plik nie przeszedł próby wysyłki.
+
+---Upload files---
+The import files were successfully uploaded!
+Initial max execution time = 120
+Files info:
+Site URL = https://primestone.global
+Data file = /home/baknet/ftp/wordpress/wpn_PrimeStone/wp-content/uploads/2019/02/theme_content.xml
+Widget file = /home/baknet/ftp/wordpress/wpn_PrimeStone/wp-content/uploads/2019/02/widget_data.wie
+Customizer file = not defined!
+Redux files:
+not defined!
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+---Importing widgets---
+Right Sidebar : 
+
+Wyszukiwanie - No Title - Widget already exists
+CryptoIGO :: Recent Post - Recent Post - Imported
+Kategorie - No Title - Widget already exists
+Tekst - About Our Company - Imported
+CryptoIGO :: Contact - How can we help you? - Imported
+Chmurka tagów - Tags - Imported
+
+Footer Sidebar : 
+
+CryptoIGO :: About Widget - Crypto IGO - Imported
+Nawigacyjne menu - Useful Link - Imported
+tf_static_tweets - My Tweets - Site does not support widget
+
+
+
+---pt-ocdi/after_import---
+
